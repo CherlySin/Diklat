@@ -1,5 +1,10 @@
 {{-- extend merupakan inheritance dari nama file yang ingin di warisi --}}
 @extends('layout/mainUser')
 @section('container')
-    Welcome
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis sed massa blandit convallis. Maecenas nec leo id elit scelerisque lobortis ac a metus. Integer aliquet risus ac dolor ultrices, eget interdum sapien consectetur. Nullam scelerisque volutpat lorem, vel blandit risus fermentum vel. Nam et velit sed leo tempus tempor. In auctor quam ut nisi malesuada, eget dignissim neque bibendum. Quisque vitae velit velit. Maecenas fringilla, libero non tristique placerat, enim tortor faucibus quam, at convallis diam magna non eros. Phasellus dictum risus sapien, at varius turpis condimentum id. Sed fermentum neque ut magna accumsan, at sollicitudin est placerat. Vivamus in rutrum libero. Duis bibendum odio in feugiat ullamcorper. Integer eget nibh quis ante cursus pellentesque vel in arcu. Vivamus suscipit metus et mi viverra, ut consequat ligula vehicula. Suspendisse pulvinar nibh eu dolor laoreet vestibulum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis sed massa blandit convallis. Maecenas nec leo id elit scelerisque lobortis ac a metus. Integer aliquet risus ac dolor ultrices, eget interdum sapien consectetur. Nullam scelerisque volutpat lorem, vel blandit risus fermentum vel. Nam et velit sed leo tempus tempor. In auctor quam ut nisi malesuada, eget dignissim neque bibendum. Quisque vitae velit velit. Maecenas fringilla, libero non tristique placerat, enim tortor faucibus quam, at convallis diam magna non eros. Phasellus dictum risus sapien, at varius turpis condimentum id. Sed fermentum neque ut magna accumsan, at sollicitudin est placerat. Vivamus in rutrum libero. Duis bibendum odio in feugiat ullamcorper. Integer eget nibh quis ante cursus pellentesque vel in arcu. Vivamus suscipit metus et mi viverra, ut consequat ligula vehicula. Suspendisse pulvinar nibh eu dolor laoreet vestibulum.
+    </p>
 @endsection
