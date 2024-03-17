@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('id_diklat');
             $table->unsignedBigInteger('id_pendaftaran');
-            $table->longText('testimoni')->charset('binary');
+            $table->string('profesi');
+            $table->longText('testimoni');
             $table->foreign('id_pendaftaran')->references('id')->on('pendaftaran')->onUpdate('cascade')
             ->onDelete('cascade');
             $table->foreign('id_diklat')->references('id')->on('diklat')->onUpdate('cascade')
