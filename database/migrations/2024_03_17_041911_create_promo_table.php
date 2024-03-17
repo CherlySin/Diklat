@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('promo', function (Blueprint $table) {
             $table->id();
-            $table->integer('potongan_promo');
-            $table->string('kode_promo')->unique();
+            $table->integer('potongan');//potongan harga dalam bentuk rupiah
+            $table->string('kode')->unique();//kode promo huruf unik
             $table->date('tgl_awal');
             $table->date('tgl_akhir');
 
