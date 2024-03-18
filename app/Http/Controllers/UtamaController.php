@@ -23,7 +23,8 @@ class UtamaController extends Controller
             'jmlPendaftar' => $jmlPendaftar,
             'jmlDiklat' => $jmlDiklat,
             'katDiklat' => $katDiklat,
-            'testimonis' => $testimonis
+            'testimonis' => $testimonis,
+            
         ]);
     }
     public function allDiklat($kategori)

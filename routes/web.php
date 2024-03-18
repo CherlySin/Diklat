@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('utama/landingPage');
-});
+// Route::get('/', function () {
+//     return view('utama/landingPage');
+// });
 
-Route::get('/utama/landingPage', [UtamaController::class, 'index']);
+Route::get('/', [UtamaController::class, 'index']);
 Route::get('/utama/macamDiklat/{kategori}', [UtamaController::class, 'allDiklat']);
 Route::get('/utama/detailDiklat/{detail}', [UtamaController::class, 'detailDiklat']);
 
