@@ -13,13 +13,14 @@ class DiklatSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void
-    {        
+    {   
         DB::table('diklat')->insert([
             [
             'id_kategori_diklat' => 1,
             'nama_diklat' => 'pendidikan pilot',
             'harga' => 100000,
-            'jumlah_minimal_pendaftar' => 5,
+            'kuota_minimal' => 5,
+            'jumlah_pendaftar' => 2,
             'status' => 'tersedia',
             'durasi' => '1 bulan',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic ullam, fugiat molestias porro, autem    mollitia ipsum magni nostrum quas quaerat omnis vel officiis eos nam facere facilis odio minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque perspiciatis ducimus temporibus facere facilis nihil quia fugiat possimus illo.',
@@ -36,7 +37,8 @@ class DiklatSeeder extends Seeder
             'id_kategori_diklat' => 1,
             'nama_diklat' => 'teknisi pesawat',
             'harga' => 200000,
-            'jumlah_minimal_pendaftar' => 6,
+            'kuota_minimal' => 5,
+            'jumlah_pendaftar' => 2,
             'status' => 'tersedia',
             'durasi' => '1 bulan',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic ullam, fugiat molestias porro, autem    mollitia ipsum magni nostrum quas quaerat omnis vel officiis eos nam facere facilis odio minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque perspiciatis ducimus temporibus facere facilis nihil quia fugiat possimus illo.',
@@ -53,7 +55,8 @@ class DiklatSeeder extends Seeder
             'id_kategori_diklat' => 2,
             'nama_diklat' => 'pramugari',
             'harga' => 500000,
-            'jumlah_minimal_pendaftar' => 10,
+            'kuota_minimal' => 5,
+            'jumlah_pendaftar' => 2,
             'status' => 'tersedia',
             'durasi' => '2 bulan',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic ullam, fugiat molestias porro, autem    mollitia ipsum magni nostrum quas quaerat omnis vel officiis eos nam facere facilis odio minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque perspiciatis ducimus temporibus facere facilis nihil quia fugiat possimus illo.',

@@ -16,7 +16,8 @@ return new class extends Migration
             $table->unsignedBigInteger('id_kategori_diklat');
             $table->string('nama_diklat');
             $table->decimal('harga');
-            $table->integer('jumlah_minimal_pendaftar');
+            $table->integer('kuota_minimal');
+            $table->integer('jumlah_pendaftar');
             $table->enum('status', ['full', 'tersedia']);
             $table->string('durasi');
             $table->longText('deskripsi');
